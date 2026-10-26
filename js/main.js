@@ -72,7 +72,7 @@ envelope.addEventListener('click', () => {
 
 function createHearts() {
     const symbols = ['🥰', '😍', '😘', '😻', '💘', '💝', '💖', '💗', '💓', '💞', '💕', '💟', '❣️', '💔', '❤️‍🔥', '❤️‍🩹', '❤️', '🩷', '🧡', '💛', '💚', '💙', '🩵', '💜', '🤎', '🖤', '🩶', '🤍',];
-    for(let i=0; i<40; i++) {
+    for(let i=0; i<400; i++) {
         setTimeout(() => {
             const h = document.createElement('div');
             h.className = 'floating-heart';
