@@ -196,10 +196,13 @@ body {
 }
 .floating-heart {
     position: absolute;
-    animation: floatUp linear forwards;
+    top: -50px; /* Hace que los emojis nazcan justo arriba de la pantalla */
+    animation: floatDown linear forwards;
     font-size: 24px;
     text-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
-@keyframes floatUp {
-    to { transform: translateY(-120vh) rotate(360deg); opacity: 0; }
+
+@keyframes floatDown {
+    /* Al usar un número positivo (120vh) sin el signo menos, los emojis se mueven hacia abajo */
+    to { transform: translateY(120vh) rotate(360deg); opacity: 0; }
 }
