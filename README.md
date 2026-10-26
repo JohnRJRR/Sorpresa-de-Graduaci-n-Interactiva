@@ -2,7 +2,7 @@
 
 Este proyecto es una experiencia web interactiva y personalizada, diseñada para celebrar una meta cumplida. Combina diseño visual, animaciones CSS y JavaScript para crear un entorno inmersivo. Cuenta con un sobre digital interactivo que, al abrirse con un clic, revela una carta, activa música de fondo y desata una lluvia de corazones. Además, proyecta una galería dinámica de fotos estilo Polaroid en el fondo de la pantalla.
 
-## 📸 Cómo colocar las imágenes
+##  Cómo colocar las imágenes
 
 La estructura del proyecto ya cuenta con la carpeta para las fotos. Para que aparezcan en la animación del fondo, sigue estos pasos:
 
